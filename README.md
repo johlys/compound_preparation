@@ -2,7 +2,7 @@
     
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
-### Charger.py usage
+### charger_RDKit_moldesc.py usage
 
 if input file is named input.smi, output will by default saved in a file called output.smi:
 
