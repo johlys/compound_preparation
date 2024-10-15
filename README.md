@@ -2,6 +2,18 @@
     
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
+# charger usage
+
+# if input file is named input.smi, output will by default saved in a file called output.smi:
+`
+charger_RDKit_moldesc.py -i ./csvs/input.smi -r 1.0 -p 4 -o
+`
+# if input is string, and ouput should be printed:
+`
+charger_rdkit_moldesc.py -str CCN -R 1.0 - p 4 -o
+`
+# Expected output: CC[NH3+], CCN 
+
 # compound_preparation
 
 Note: all scripts are specific to our setup, so will probably need some adjustment to run somewhere else
