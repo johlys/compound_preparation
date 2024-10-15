@@ -2,6 +2,13 @@
     
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
+### Description:
+This script can accept SMILES-string as input, either from a .smi-file or as a string. The script will then "charge" the input SMILES according to the chosen pH-value and range, producing either an output file or return a string with the charged structure. This script was originally written by prof. Ruth Brenk (University of Bergen), and was adapted to work with RDKit and .csv-files. 
+
+We offer no guarantees that this script will work with all or any valid SMILES-structures.
+We acknowledge the existence of a lot of spaghetti code within this script, and its dire need of refactoring.
+
+
 ### charger_RDKit_moldesc.py usage
 
 if input file is named input.smi, output will by default saved in a file called output.smi:
